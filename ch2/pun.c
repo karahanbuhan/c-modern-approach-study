@@ -1,3 +1,9 @@
+/* 
+ * Name: pun.c
+ * Purpose: Prints a bad pun.
+ * Author: Karahan Buhan 
+ */
+
 #include <stdio.h>
 
 int main() {
