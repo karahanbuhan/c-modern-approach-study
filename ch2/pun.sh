@@ -1,0 +1,1 @@
+gcc ./pun.c -o o && ./o
