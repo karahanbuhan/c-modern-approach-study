@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int height = 12, length = 10, width = 8, volume, weight;
 
     volume = height * length * width;

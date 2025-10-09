@@ -4,7 +4,7 @@
 
 #define INCHES_PER_POUND 166
 
-int main() {
+int main(void) {
     int height, length, width, volume, weight;
 
     printf("Enter height of the box: ");

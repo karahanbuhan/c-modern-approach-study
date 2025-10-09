@@ -1,1 +1,1 @@
-cc ./$1.c -o ./$1.out && ./$1.out && rm ./$1.out
+cc -o ./$1.out ./$1.c -Wall -W -pedantic -ansi -std=c89 && ./$1.out && rm ./$1.out
