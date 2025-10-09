@@ -11,6 +11,6 @@ int main(void) {
     float volume = radius * radius * radius * PI * 4.0f/3.0f;
     /* float volume = radius * radius * radius * PI * 4/3; The program worked as expected even as 4/3 because radius is float thus 4 is promoted to 4.0f */
     /* float volume = 4/3 * radius * radius * radius * PI; However this breaks the program as 4/3 is now 1 as it started directly from integer operation */
-    printf("%.4fm3\n", volume);
+    printf("Volume of the sphere is: %.2fm3\n", volume);
     return 0;
 }
