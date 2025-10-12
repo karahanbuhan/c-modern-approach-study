@@ -5,7 +5,7 @@ If the user enters
 what will be the values of i, x, and j after the call? (Assume that i and j are int variables
 and x is a float variable.) */
 
-/* I think, values of i, x, and j will be 1 0.3 and 5 respectively? WRONGGG! */
+/* I think, values of i, x, and j will be 1, 0.3, and 5 respectively? WRONGGG! */
 
 #include <stdio.h>
 
