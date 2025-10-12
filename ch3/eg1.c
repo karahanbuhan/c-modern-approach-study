@@ -1,0 +1,23 @@
+/* What output do the following calls of printf produce?
+(a) printf("%6d,%4d", 86, 1040);
+(b) printf("%12.5e", 30.253);
+(c) printf("%.4f", 83.162);
+(d) printf("%-6.2g", .0000009979); */
+
+/* My answer to all those lines printed is (each line starts with 1 space that I have added for better readability): 
+(a)    86,1040
+(b)  3.253000+e1
+(c) 83.1620
+(d) 1e-06 */
+
+#include <stdio.h>
+
+int main(void) {
+    printf("%6d,%4d\n", 86, 1040);
+    printf("%12.5e\n", 30.253);
+    printf("%.4f\n", 83.162);
+    printf("%-6.2g\n", .0000009979);
+    return 0;
+}
+
+/* Looks good! */
