@@ -28,7 +28,5 @@ int main(void) {
     printf("Column sums: %d % d %d %d\n", c11 + c21 + c31 + c41, c12 + c22 + c32 + c42, c13 + c23 + c33 + c43, c14 + c24 + c34 + c44);
     printf("Diagonal sums: %d %d\n", c11 + c22 + c33 + c44, c14 + c23 + c32 + c41);
 
-
-
     return 0;
 }
