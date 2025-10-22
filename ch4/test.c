@@ -12,5 +12,7 @@ int main(void) {
     a = (b += (((c++) - d) + ((--e) / (-f))));
     printf("%d\n", a);
 
+    printf("%d\n", 6 % 10);
+
     return 0;
 }

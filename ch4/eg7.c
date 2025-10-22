@@ -28,6 +28,7 @@ int main(void) {
     check_digit = 9 - ((3*(s1 + i2 + i4 + j1 + j3 + j5) + (i1 + i3 + i5 + j2 + j4)) - 1) % 10; */
     printf("Check digit: %d\n", check_digit);
     /* For example 0 42100 00566 generates the check digit of 10 which is not a single symbol so invalid */
+    /* Total being multiples of 10 causes the remainder to be 0 thus 10-0=10 as the check digit */
 
     return 0;
 }
