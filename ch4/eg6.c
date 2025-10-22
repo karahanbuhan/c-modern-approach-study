@@ -13,6 +13,8 @@ an expression may have more than one value.)
 (c) 3
 (d) -3 */
 
+/* No ambiguity in C99 here, similar to exercise 5 */
+
 #include <stdio.h>
 
 int main(void) {
