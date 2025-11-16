@@ -42,8 +42,8 @@ int main(void) {
         rival_comission = 33.0f + 0.02f * shares;
     }
     
-    printf("Original Broker's Comission: %.2f\n", comission);
-    printf("Rival Broker's Comission: %.2f\n", rival_comission);
+    printf("Original Broker's Comission: $%.2f\n", comission);
+    printf("Rival Broker's Comission: $%.2f\n", rival_comission);
 
     return 0;
 }

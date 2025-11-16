@@ -25,7 +25,7 @@ int main(void) {
         comission = 39.00f;
     }
     
-    printf("Comission: %.2f\n", comission);
+    printf("Comission: $%.2f\n", comission);
 
     return 0;
 }
