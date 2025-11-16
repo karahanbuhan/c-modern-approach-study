@@ -8,10 +8,7 @@ int main(void) {
     printf("Enter value of trade: ");
     scanf("%f", &amount);
 
-    if (amount < 39) {
-        printf("The minimum charge is $39!");
-        return 0;
-    } else if (amount < 2500.00f) {
+    if (amount < 2500.00f) {
         comission = 30.0f + amount * (1.70f/100.00f);
     } else if (amount < 6250.00f) {
         comission = 56 + amount * (0.66f/100.00f);
@@ -21,6 +18,11 @@ int main(void) {
         comission = 100 + amount * (0.22f/100.00f);
     } else {
         comission = 255 + amount * (0.09f/100.00f);
+    }
+
+    if (comission < 39.00f) {
+        printf("The minimum comission is $39!\n");
+        comission = 39.00f;
     }
     
     printf("Comission: %.2f\n", comission);
